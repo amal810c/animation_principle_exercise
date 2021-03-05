@@ -1,0 +1,69 @@
+.linear {
+  animation-name: linear;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+@keyframes linear {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50vw) rotate(360deg);
+  }
+}
+
+.ease {
+  animation-name: ease;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+}
+@keyframes ease {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50vw) rotate(360deg);
+  }
+}
+
+.ease-in {
+  animation-name: ease-in;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+@keyframes ease-in {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50vw) rotate(360deg);
+  }
+}
+
+.ease-out {
+  animation-name: ease-out;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+}
+@keyframes ease-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50vw) rotate(360deg);
+  }
+}
+
+.ease-in-out {
+  animation-name: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+@keyframes ease-in-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50vw) rotate(360deg);
+  }
+}

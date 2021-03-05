@@ -1,0 +1,13 @@
+.addtocart {
+  animation: addtocart 2s linear 1;
+  offset-path: path("m 2 2 c 0 0 0 0 220 -140");
+
+  /*   offset-path: path("m 2 2 c 0 1 0 0 220 -140"); */
+}
+
+@keyframes addtocart {
+  to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}
